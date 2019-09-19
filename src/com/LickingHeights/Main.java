@@ -10,6 +10,9 @@ public class Main {
         //declare
         Scanner keyboard;
         String heightFeet;
+        String heightInches;
+
+
 
         //initialize
        keyboard = new Scanner(System.in);
@@ -22,7 +25,8 @@ public class Main {
         System.out.println("What is your height \n(feet only)");
         heightFeet = keyboard.nextLine();
 
-
+        System.out.println("What is your height \n(inches only)");
+        heightInches = keyboard.nextLine();
 
 
 
