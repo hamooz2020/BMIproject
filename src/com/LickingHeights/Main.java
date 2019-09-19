@@ -42,7 +42,11 @@ public class Main {
         System.out.println("Your weight in kilograms is...");
         System.out.println(weight*0.453592);
 
-    
+        kg = weight*0.45359;
+        meters = totalHeight*0.0254;
+
+        System.out.println("YOUR BMI IS...");
+        System.out.println(kg/meters);
 
 
 
