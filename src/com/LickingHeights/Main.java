@@ -10,7 +10,7 @@ public class Main {
         //declare
         Scanner keyboard;
 
-        double heightFeet,heightInches,weight,totalHeight,kg,meters;
+        double heightFeet,heightInches,weight,totalHeight,kg,meters,notBMI;
 
 
 
@@ -34,19 +34,21 @@ public class Main {
         totalHeight = heightFeet*12+heightInches;
 
         System.out.println("Your height in Inches is...");
-        System.out.println(heightFeet*FEETINCHES+heightInches);
+      System.out.println(heightFeet*FEETINCHES+heightInches);
 
-        System.out.println("And in meters it is...");
+      System.out.println("And in cm it is...");
         System.out.println(totalHeight*0.0254);
 
         System.out.println("Your weight in kilograms is...");
-        System.out.println(weight*0.453592);
+       System.out.println(weight*0.453592);
 
-        kg = weight*0.45359;
+       kg = weight*0.45359;
         meters = totalHeight*0.0254;
 
-        System.out.println("YOUR BMI IS...");
-        System.out.println(kg/meters);
+        notBMI = meters*meters;
+
+       System.out.println("YOUR BMI IS...");
+       System.out.println(kg/notBMI);
 
 
 
